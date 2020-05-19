@@ -2,6 +2,8 @@
 
 
 ### <div align='center'>Problem Definition</div>
+-------------------------------------------------------------------------------
+
 #### Project Outline
 This report proposes a preliminary design for the implementation of a in-house call management center (CMC) information system. The development of this system is in response to pre-existing flaws in the current phone operations of a major travel agency. These flaws include the suitability of employees matched with customers, waiting time of customers, and sales time provided by employees. Our proposed system intends to provide functionality to match customers with employers most similar to their needs and socio-cultural background. By matching employees with suitable customers, not only is customer satisfaction expected to increase, but wait and sales times will sharply decrease when a customer can be targetted on a personal level. The proposed system intends to take advantage of existing company tools including the customer *'Profiler Tool'*, inbound *'Automatic Call Distributor'*, *Interactive Voice Response unit*,  and of course the existing database.
 
@@ -83,7 +85,7 @@ Our team wishes to focus specifically on the 'Customer', 'Relationship Manager' 
 - How might we reduce business expenses such as long call handling costs?
 
 ### <div align='center'> Project Approach </div>
-
+-------------------------------------------------------------------------------
 #### System Design & Brainstorming Stakeholder Needs
 The system design has been designed to give the travel agency a competitive edge, encouraging repeat customers, business growth, and satisfied employees who can be rewarded and recognized for their high performance.
 
@@ -91,7 +93,7 @@ The system operates around an idea of 'skill matching' where a customer is met b
 
 All information elicited from both RMs and customers will be required to be stored in a secure database, with personal information not displayed to anyone and only used in calculations. Any user of the system will not be forced to provide information that is not directly necessary for a sale (e.g. name, payment info is needed to book a holiday). If a user opts out of providing information, these fields will be ignored and a heavier weighting will be given to performance metrics taken such as call durations.
 
-When not receiving inbound calls, RMs will be expected to meet a reasonable weekly quota by making outbound calls, to encourage performance increase. Target lists will be generated for each RM based on their prior knowledge, personal performance, and socio-cultural background. Performance such as total sale time, customer wait time, and sale success will be gathered for all inbound and outgoing calls. Customers with very high performance will likely take the majority of inbound calls - the target list becomes a great way for newer employees to build up their experience and knowledge. Furthermore, the assessment of employee knowledge encourages people to specialize in knowledge of holiday types (cruises, interstate travel) or particular destinations. The product owner can encourage people to expand their current knowledge based on customer demands for new holidays, or train new employees to learn more about specific deals.
+When not receiving inbound calls, RMs will be expected to meet a reasonable weekly quota by making outbound calls, to encourage performance increase. Target lists (list of customers to call and pitch holiday packages to) will be generated for each RM based on their prior knowledge, personal performance, and socio-cultural background. Performance such as total sale time, customer wait time, and sale success will be gathered for all inbound and outgoing calls. Customers with very high performance will likely take the majority of inbound calls - the target list becomes a great way for newer employees to build up their experience and knowledge. Furthermore, the assessment of employee knowledge encourages people to specialize in knowledge of holiday types (cruises, interstate travel) or particular destinations. The product owner can encourage people to expand their current knowledge based on customer demands for new holidays, or train new employees to learn more about specific deals.
 
 The system intends to use the company private automatic dialing branch to handle inbound calls. Customers who do not have an existing profile created will be asked some preliminary questions from the branch's Interactive Voice Response unit. These responses will be translated to assess their potential needs and interests before being matched with an RM using the skill matching concept explained before.
 
@@ -107,7 +109,7 @@ Sales assessments will be made from the following criteria for all customers who
 - Specific feedback given from employees to the company
 - Number of available packages that match their interests
 
-All assessments will be used to calculate a skill score (1-10) for RMs and a customer score (1-10) for customers. This data will be used to further assist the skill matching algorithms for inbound calls and target list generation.
+All assessments will be used to calculate a skill score (1-10) for RMs and a customer score (1-10) for customers. This data will be used to further assist the skill matching algorithms for inbound calls and target list generation. For inbound calls, final suitability criteria will match high scoring employees with high scoring customers. In addition this score will be adjusted based on criteria an employee has matching with the customer, for example the same cultural background, language spoken, or a customer interest in packages the RM is familiar with. For target list generation, all employees will be given a list of customers ranked my their customer score, with higher scores at the top. This ensures RMs do not have an unfair skill score decrease when talking to many difficult customers in a row. Higher ranking RMs will receive a smaller target list, as they will spend more of their time occupied with inbound calls. Lower ranking RMs can increase their skill score by performing well during outbound calls.
 
 #### Assumptions and Clarifications
 In order to design the system certain assumptions have been made about the existing agency call system, and the future one.
@@ -210,17 +212,8 @@ In order to design the system certain assumptions have been made about the exist
     + Scripts will not be enforced for employees to encourage spontaneity and a unique service for each customer
     + Scripts will be designed for newer/inexperienced employees to have prompts for their calls
 
-#### Project Methodology
-The project methodologies followed for this system design are Design Thinking and Scrum. 
-
-
-- explain agile methodology used
-    + Describe scrum
-    + Outline activities from scrum we have chosen to use.
-
-
-
-### Workproducts
+### <div align='center'> Workproducts </div>
+-------------------------------------------------------------------------------
 - Descriptions and diagrams
 - Use to mark off issues
     + Use Case Diagrams
@@ -228,7 +221,45 @@ The project methodologies followed for this system design are Design Thinking an
     + Class Diagrams
     + Collaborative diagrams
 
-### Competitive Advantages
-
+###  <div align='center'> Competitive Advantages </div>
+-------------------------------------------------------------------------------
 - Potential benefits of our new system
 - Adverse effects for business if our system fails
+
+### <div align='center'>Project Methodology </div>
+-------------------------------------------------------------------------------
+Two main project methodologies have been followed for this system design, namely Design Thinking and Scrum. Design thinking has been used to outline and elicit clear stakeholder requirements of the system to establish and define a problem. Scrum and Scrum activities have then been used to develop working models based on this problem definition. It is highly recommended any team that continues with implementation of this system uses Scrum or another form of Agile methodology.
+
+#### Design Thinking
+The reason for a Design Thinking approach for preliminary system design was that a clear problem definition was not present before beginning. An advantage of Design Thinking was that it allowed us to output consistent work products and efficiently elicit stakeholder needs before system implementation. The following is an explanation and justification of how and why our team executed the stages of design thinking in our project:
+- Empathize:
+    + This process involved the identification of key stakeholders of the system, and creating empathy maps for these users
+    + An application of empathy mapping has allowed our team to gain a detailed insight into current users and the product owner of the system to generate ideas about what should change, what the system needs, and what should stay
+    + Before idea generation began this step included problem generation, where each problem stakeholders were facing presented a possibility for a solution
+- Define
+    + This stage of design thinking allowed us to create a clear problem definition based of the elicited user needs and their perspectives
+    + POV and HMW statements have been created in order to list existing issues, goals, desires, needs, and feelings of stakeholders and turn these into statements for solution generation
+
+The justification for stages 1 and 2 of Design Thinking was that the business is inherently customer centric, and requires a methodology and artefacts which respect this. It allowed us to systematically identify user needs and allow us to create a system that listens to the demands of its customers as well as the employees in contact with them. Clear pain points have been identified by the end of HMW statements, and these Design thinking stages allow for these to be removed in the customer's journey. All inferences taken have been logical extensions of stakeholder desires, and create a strong framework for the following stages.
+- Ideate
+    + Ideation has helped to form appropriate design solutions to the problems defined and empathized with in early stages
+    + This was created during system analysis and brainstorming
+    + A clear layout for the system was created where solutions to the problems were met and integrating as part of a functional call system
+    + HMW statements can be viewed alongside the solution to follow side by side in how the system meets stakeholder needs
+- Prototype
+    + For the purposes of this project development, implementation will not be included
+    + The prototyping stage has included the development of workproducts based on the system design generated through ideation.
+    + A systematic transition from developing user stories about the system, to creating use cases, to drawing higher level activity, class, and collaborative diagrams can be made
+
+The justification for stages 3 and 4 of Design Thinking are that they were a natural transition into developing tangible products based on elicited user needs. By creating a clear system design and preliminary models, the system is open to consistent evaluation to ensure models are still accurately reflecting user needs. Prototyping allows users to remain involved in the design process, and allow developers and users alike to understand the implementation of the system through user centric models and analysis models. 
+
+- Testing 
+    + As only workmodels will be produced for this project, testing will be achieved through consistent evaluation from stakeholders involved
+    + This will include consistent self-evaluation from our team to ensure the project design remains customer centric and actively responds to concerns from users
+    + This will include regular input from the product owner 
+
+Testing is a necessity for any design methodology in order to achieve end success from the system. 
+
+#### Scrum
+- Requires outline of scrum activities used
+- Justification for scrum
