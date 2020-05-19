@@ -3,10 +3,10 @@
 
 ### <div align='center'>Problem Definition</div>
 #### Project Outline
-This report proposes a preliminary design for the implementation of a in-house call management center (CMC) information system. The development of this system is in response to pre-existing flaws in the current phone operations of a major travel agency. These flaws include the suitability of employees matched with customers, waiting time of customers, and sales time provided by employees. Our proposed system intends to provide functionality to match customers with employers most similar to their needs and socio-cultural background. By matching employees with suitable customers, not only is customer satisfaction expected to increase, but wait and sales times will sharply decrease when a customer can be targetted on a personal level. The proposed system intends to take advantage of existing company tools including the customer *'Profiler Tool'*, inbound *'Automatic Call Distributor'*, and of course the existing database.
+This report proposes a preliminary design for the implementation of a in-house call management center (CMC) information system. The development of this system is in response to pre-existing flaws in the current phone operations of a major travel agency. These flaws include the suitability of employees matched with customers, waiting time of customers, and sales time provided by employees. Our proposed system intends to provide functionality to match customers with employers most similar to their needs and socio-cultural background. By matching employees with suitable customers, not only is customer satisfaction expected to increase, but wait and sales times will sharply decrease when a customer can be targetted on a personal level. The proposed system intends to take advantage of existing company tools including the customer *'Profiler Tool'*, inbound *'Automatic Call Distributor'*, *Interactive Voice Response unit*,  and of course the existing database.
 
 #### Key Stakeholders
-Our team wishes to focus specifically on the 'Customer', 'Relationship Manager' (RM), and 'Product Owner' stakeholders to design an improved call system. In order to develop the new system, empathy maps have been developed to help us draw a deeper insight from the typical customer, employee, and of course the product owner. 
+Our team wishes to focus specifically on the 'Customer', 'Relationship Manager' (RM), and 'Product Owner' stakeholders for the design of an improved call system. In order to develop the new system, empathy maps have been developed to help us draw a deeper insight from the typical customer, employee, and of course the product owner. 
 - Customer  
 <img style="float: center;">
 
@@ -15,39 +15,210 @@ Our team wishes to focus specifically on the 'Customer', 'Relationship Manager' 
 - Relationship Manager (RM)
 <img style="float: center;">
 
-![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/RM%20Empathy%20Map.PNG?raw=true "Relationship Manager Empathy Map")
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Relationship%20Manager.PNG?raw=true "Relationship Manager Empathy Map")
 </img>
 - Product Owner
 <img style="float: center;">
 
-![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/RM%20Empathy%20Map.PNG?raw=true "Relationship Manager Empathy Map")
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Product%20Owner%20Empathy%20Map.PNG?raw=true "Relationship Manager Empathy Map")
 </img>
+####  <div align='center'>Analysis of Stakeholder Point-of-Views </div>
+
+##### Customer POV
+- As a customer I need to be be dealt with by a human in a fast and efficient manner so that i dont feel frustrated waiting on hold or dealing with an automated response for too long.
+- As a customer I need a range of holiday options available so that i can make the best decision for my future trips
+- As a customer I need to talk to someone who is well informed about my likes and dislikes, so that i can feel confident having someone else arrange my holiday
+- As a customer I need someone to help me make major travel decisions in a timely manner without feeling rushed, so that I do not feel overwhelmed by the booking process
+- As a customer I need to have the option to withold personal information if i don't feel comfortable giving it out, so I can protect my privacy
+- As a customer I need to know my personal information is stored securely by a company, and how it will be used, so that i can trust the agency service.
+- As a customer I need to have my loyalty to the service acknowledged so that i can feel valued and respected to continue returning. 
+
+##### Relationship Manager POV
+- As an RM I need to my performance to be recognized and rewarded by the agency so that I'm encouraged to keep meeting expectations in my work
+- As an RM I need to know some information about my customers before discussing holiday packages with them so that I can recommend appropriate deals and achieve low sales times
+- As an RM I need my existing personal skills and experienced to be recognized by the agency so that I can use them to enhance my sales ability
+- As an RM I need the option to not disclose unnecessary personal information to my company so that my privacy is respected
+- As an RM I need to feel comfortable calling customers with limited experience or as a new employee, so that I can learn the ropes of selling well at my own pace
+- As an RM I need low wait times for customers, so that they do not provide negative feedback on my call due to their wait rather the experience i personally provided.
+- As an RM I need to be able to specialize in a subset of the packages offered, so that i can provide more attention to detail and feel confident selling the deals i know about to customers
+- As an RM I need to have the option to expand my skillset or knowledge, and have these recognized by the agency so that i can feel motivated to improve as i work for longer.
+
+##### Product Owner POV
+- As a product owner I need to achieve high customer satisfaction, so that i can continue to run a successful business
+- As a product owner I need my employees to feel motivated and happy to continue working for the company, so that I can maintain and achieve a loyal team of high performing staff
+- As a product owner I need to learn and understand more about potential and existing customers, so i can create and find packages that suit our range of customers
+- As a product owner I need to make sure full disclosure is provided when gatehring information about people, and sensitive information is obtained legally and stored securely, so that i can continue to ethically run the agency
+- As a product owner I need to constantly seek to improve call handling, including wait and call costs for customers, so that my business can remain competitive.
+- As a product owner I need to reward customer loyalty so that i can encourage repeat business
+- As a product owner I need to reward employee performance so that i can keep my employees motivated and striving to improve.
+
+#### <div align='center'>System How-Might-We Analysis </div>
+
+##### Customer HMW
+- How might we make the service feel personalized for customers?
+- How might we gather personal information in a way that is secure and not cumbersome for users to provide?
+- How might we reward customer loyalty?
+- How might we recognize customers who are friendly and approachable, and ones who are more difficult to sell to?
+- How might we narrow down what holiday packages a customer would be interested in from our large selection?
+- How might we reduce customer waiting times?
+- How might we cater to customers who speak in different languages?
+- How might we recommend packages to customers who already have a lot of knowledge about where they want to go?
+- How might we make customers feel secure and confident in providing their personal information?
+
+##### Relationship Manager HMW
+- How might we reward RMs for working hard, reducing their sales times, demonstrating different skills, or having a diverse range of knowledge?
+- How might we provide incentive for longtime RMs to continue working hard for the company
+- How might we incorporate customer feedback into how RMs are evaluated?
+- How might we elicit information from RMs in an ethical manner, and ensure their information is kept safe?
+- How might we help new RMs adjust to using our system?
+- How might we allow RMs to sell only packages they are comfortable with rather than the entire system.
+- How might we let RMs take calls from customers who speak a similar language or are interested in the packages they know about.
+- How might we allow inexperienced or underperforming RMs to improve their confidence on the phone?
+
+##### Product Owner HMW
+- How might we create a system that promotes business growth for the product owner?
+- How might we guarantee an increase in customer and employee satisfaction?
+- How might we present evaluative sales metrics to the product owner to track employee performance?
+- How might we take advantage of the existing tools the product owner has provided?
+- How might we reduce business expenses such as long call handling costs?
 
 ### <div align='center'> Project Approach </div>
 
-- Reflection(text) that describes any assumptions made
-    + Should describe our approach from design thinking perspective
-    + Brainstorming
+#### System Design & Brainstorming Stakeholder Needs
+The system design has been designed to give the travel agency a competitive edge, encouraging repeat customers, business growth, and satisfied employees who can be rewarded and recognized for their high performance.
+
+The system operates around an idea of 'skill matching' where a customer is met by an employee we believe can best fulfill their needs. Skills will be gathered for both customers and managers alike. The existing 'Profiler Tool' will be used to gather data for a customer based on their postcode and surname for customers. For RMs, a 10 minute questionnaire will be made mandatory upon hiring. This will assess the age, sex, language proficiencies, prior experience, product knowledge, any relevant socio-cultural information that could be used to match with customers. When a customer makes an inbound call, this information will be used to get them an available RM who most similarly matches their background. RMs can further add to existing customer profiles, taking note of their preferences using keywords that match holiday package types. An RM can also provide a rating of how comfortable the customer was to deal with. Future RMs can view this information when dealing with the customer. 
+
+All information elicited from both RMs and customers will be required to be stored in a secure database, with personal information not displayed to anyone and only used in calculations. Any user of the system will not be forced to provide information that is not directly necessary for a sale (e.g. name, payment info is needed to book a holiday). If a user opts out of providing information, these fields will be ignored and a heavier weighting will be given to performance metrics taken such as call durations.
+
+When not receiving inbound calls, RMs will be expected to meet a reasonable weekly quota by making outbound calls, to encourage performance increase. Target lists will be generated for each RM based on their prior knowledge, personal performance, and socio-cultural background. Performance such as total sale time, customer wait time, and sale success will be gathered for all inbound and outgoing calls. Customers with very high performance will likely take the majority of inbound calls - the target list becomes a great way for newer employees to build up their experience and knowledge. Furthermore, the assessment of employee knowledge encourages people to specialize in knowledge of holiday types (cruises, interstate travel) or particular destinations. The product owner can encourage people to expand their current knowledge based on customer demands for new holidays, or train new employees to learn more about specific deals.
+
+The system intends to use the company private automatic dialing branch to handle inbound calls. Customers who do not have an existing profile created will be asked some preliminary questions from the branch's Interactive Voice Response unit. These responses will be translated to assess their potential needs and interests before being matched with an RM using the skill matching concept explained before.
+
+Performance assessments will be made from the following criteria for all employees:
+- Call durations
+- Call success
+- Specific feedback given from customers to the company
+- Existing knowledge
+- Amount of and proficiency in skills/different languages  
+
+Sales assessments will be made from the following criteria for all customers who have a profile generated:
+- Number of repeat calls
+- Specific feedback given from employees to the company
+- Number of available packages that match their interests
+
+All assessments will be used to calculate a skill score (1-10) for RMs and a customer score (1-10) for customers. This data will be used to further assist the skill matching algorithms for inbound calls and target list generation.
+
+#### Assumptions and Clarifications
+In order to design the system certain assumptions have been made about the existing agency call system, and the future one.
+
+1. The system will have access to all existing company data
+    + All existing employee information will be gathered and updated so it is appropriate for a skill assessment
+    + All user information will be gathered and reassessed by the Profiler Tool to create a new user profile
+    
+2. The system will have access to all existing tools
+    + Profiler Tool
+    + Automatic call routing and distribution branch
+    + Interactive Voice Response unit
+    + All tools can be integrated with the skill matching system to connect customers with RMs
+3. Holiday packages are extremely varied and contain a range of booking types and styles
+    + It is assumed that 'package' simply refers to multiple services the agency can provide through a single purchase
+    + This may refer to different destinations, modes of transport, styles of accomodation, activities that can be booked on holiday etc.
+    + Packages can be of different sizes
+        * A customer may want to book a just accomodation
+        * A customer may need accomodation, several activities, multiple flights
+4. Packages can be tailored based on what a customer would specifically prefer
+    + If a customer wishes to travel using a particular mode of transport or seek a specific style of accomodation this can be changed
+    + The travel agency has the capacity to negotiate and change the packages receieved from 3rd parties
+5. The travel agency has a substantial client base already
+    + The nature of the system is that it moderately reliant on a range of both inbound and outbound calls
+    + The system may fail if the agency launches without a reasonable amount of regular business available
+6. Information can be reasonably elicited from customers
+    + Data extracted from postcodes, surnames and user profiles can be reasonably obtained
+    + The purpose of skill matching is to present a customer with an RM that most aptly reflects their needs
+    + This purpose of quality customer service is defeated if it is cumbersome for a user to enter a lot of profile information
+7. A substantial amount of RMs already exist within the company
+    + Similar reason to 6
+    + A main objective of the system is to increase customer satisfaction
+    + Customers who make inbound calls from the new system will be disatisfied with long wait times for an RM, and the purpose of the system will be undermined
+8. Customers are comfortable providing personal information
+    + Not all customers may feel comfortable having information about their socio-cultural background being gathered
+    + The system will need to inform users how they intend to store their data securely and use it with the software
+    + A score can be granted to a customer irrespective of whether they provide this personal information
+    + Scores can instead be generated from their holiday likes/dislikes, repeat calls, and other sales metrics
+9. Information about holiday packages will be categorized
+    + It is assumed that information about holiday packages can be categorized by features such as destination or type of trip
+    + This way an RM can choose to specialize their knowledge, for example a particular destination they have a lot of information on
+10. Data is stored securely, all phone lines and profile tools have safe security protocols
+    + The system requires the elicitation of sensitive information from its users and should be stored securely
+    + Only information relevant to an RM will be displayed, such as a customer's potential interests or their total skill score (an arbitrary number)
+    + All meaningful and personal information will be need to be stored securely in a back-end database for skill-matching calculation
+11. All employees, new and existing, will need to complete a 10-minute questionnaire to gather their skills
+    + Employees will need to be able to share the skills and knowledge that they feel comfortable with
+    + All information should be relevant to what might help them make sales
+    + All information asked of an RM should follow legal guidelines about what an employer can ask an employee to provide
+    + If information cannot be gathered from an employee, their score will be generated purely from their performance metrics
+12. The product owner, or other workplace supervisors, are able to assess the validity of all RM profiles
+    + Each profile should be assessed to ensure skills and knowledge gathered are reasonable and accurate for employees
+    + This makes sure employees do not provide fake details to receieve a higher skill rating
+    + A product owner may want to provide existing performance details for employees who performed particularly well or poorly before the new system
+        * This way valued employees will not have to work from the bottom up to achieve a high skill score.
+13. Targetted lists can be adjusted and tailored for specific employees
+    + High performing employees will naturally receieve more matches from inbound calls, and should be able to receieve a smaller target list of outbound weekly calls
+    + Newer employees should have a targetted list of a larger amount of employees, ranked my their customer scores
+        * This means as an employee grows their performance they will deal will customers who are predicted to be harder to sell to based on their customer score
+14. All information is obtained legally
+    + Customers and employees provide appropriate consent whenever information about them is gathered
+    + Despite skill scores all customers are dealth with
+        * While a customer with a lower customer score is likely to be dealt with after a customer with a higher score, the system should not engage in any discriminatory practises on the basis of socio-cultural background
+        * RM hiring should include a diverse socio-cultural background of employees, so customers are not heavily prioritized based on these factors.
+    + Customer postcodes and surnames for target lists have been obtained from 3rd party data services, or from existing users.
+15. An RM skill score can be calculated using the following:
+    + Average call duration
+    + Average sale success
+    + Specific positive or negative feedback the company receives about an employee
+    + Languages known
+    + Personal skills known that are recognized as of value to the company
+    + Amount of holiday packages that fall under their recognized package knowledge
+16. A customer score can be calculated using the following:
+    + Average call duration
+    + Average sale success
+    + Total calls made to company
+    + Amount of holiday packages recognized as relevant to their elected preferences
+    + Average budget range
+17. A final skill match will be obtained using the following:
+    + RMs with a higher skill score will be considered higher performing
+        * They will receieve more inbound calls, and customers on their target list will be more challenging to sell to
+    + Customers with a higher customer score will be considered easy-going, flexible, and easier to make a sale with
+        + They will receive more outgoing calls, and be prioritized when making an inbound call
+    + RMs will be given a temporary suitability score for each inbound call
+        * That score will be calculated from the number of matching criteria they have with the customer calling
+        * Factors include age, sex and cultural background 
+18. RMs can add information about specific users to influence their score
+    + The Profiler Tool will elicit information purely from a customer's postcode and address
+    + RMs can input additional fields including a user's likes and dislikes using keywords that match with holiday packages
+    + RMs can also include a rating of a customer to include in their profile, so friendly customers who are easy to sell to will be prioritized.
+19. The Interactive Voice Response unit can accept customer feedback
+    + Upon ending a call, the unit can request a customer leave a recording of their feedback of their experience
+    + Information will be gathered and influence an RM's skill score
+20. Information can automatically be gathered by the Interactive Voice Reponse unit, and stored in a database.
+    + Keywords can be elicited when a customer is prompted to give feedback or indicate why they are calling
+    + This can be used to add to a customer's profile, or an RM's skill score and directly added to the database
+    + It would be very inefficient to manually record this data and hurt business growth.
+21. Scripts will be automatically generated for each outbound call
+    + A script will be created based on the profile of the customer being called
+    + Scripts will not be enforced for employees to encourage spontaneity and a unique service for each customer
+    + Scripts will be designed for newer/inexperienced employees to have prompts for their calls
+
+#### Project Methodology
+The project methodologies followed for this system design are Design Thinking and Scrum. 
+
+
 - explain agile methodology used
     + Describe scrum
     + Outline activities from scrum we have chosen to use.
-- Develop POV statements into HMW statements
-- Backlog must be created
-- Meaningful Commits Made
 
 
-
-#### Outline project objectives
-In order for the system to be considered successful, it should address as many potential existing issues as possible, and have sufficient reason for not doing so. Criteria of both identified problems and acceptance testing for them have been created below.
-<center>
-
-| Issues        | Acceptance Criteria |
-| :------------ |:-------------------| 
-| col 3 is      | right-aligned | 
-| col 2 is      | centered      |  
-     
-
-</center>
 
 ### Workproducts
 - Descriptions and diagrams
