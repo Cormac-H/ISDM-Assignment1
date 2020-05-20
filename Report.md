@@ -261,5 +261,12 @@ The justification for stages 3 and 4 of Design Thinking are that they were a nat
 Testing is a necessity for any design methodology in order to achieve end success from the system. 
 
 #### Scrum
-- Requires outline of scrum activities used
-- Justification for scrum
+- Scrum activities used
+
+The use of scrum as an agile methodology proved successful and useful in creating an end result that was effective and efficient. The use of scrum activities allowed the team to remain on-track with necessary tasks.
+
+
+
+- Justification of scrum 
+
+Scrum was a successful and advantageous agile methodology to use for this project as it allowed the team to work collaboritively to develop both diagrams and working models that successfully showcase a preliminary design for the implementation of an in-house call management center (CMC) for the travel company. Engaging in such activities as 15-minute scrum meetings allowed the team to not only saave time, but also ensure that the necessary progress was being made throughout the process of this task. Scrum meetings also allowed the team better understand what tasks and activities were proving more difficult and/or what problems were blocking a team member from completing a task. When these blocks and issues arose, it was easier to deal with them in the weekly scrum meetings as all team members could contribute their ideas for potential solutions. Furthermore, through the use of scrum roles including a scrum master, team members and product owner, it was easy to implement scrum activities and tasks which allowed for seamless advancements on the development of the in-house CMC. Utilising scrum activities, in particular sprints, allowed the team to successfully stick to the required time-frame of the development process and helped ensure tasks were completed at the correct inervals. Another reason scrum proved a highly effective and efficient methodology was the ability for it to encourage continuous improvement. Team members were able to use retrospect to understand and accept what went well in the sprint, and what didn't work as well, or where problems may have potentially arisen. The team continuously improved over the course of the development process through using such tools as transparency, inspection and adaptation which allowed for a greater overall final result. Overall, the ability for scrum as a methodology to provide a freely-adaptable and uniquely flexible structure to ensure the end result was achieved as efficiently, effectively and with the greatest possible success.
