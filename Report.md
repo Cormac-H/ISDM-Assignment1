@@ -263,7 +263,21 @@ Testing is a necessity for any design methodology in order to achieve end succes
 #### Scrum
 - Scrum activities used
 
-The use of scrum as an agile methodology proved successful and useful in creating an end result that was effective and efficient. The use of scrum activities allowed the team to remain on-track with necessary tasks.
+The use of scrum as an agile methodology proved successful and useful in creating an end result that was effective and efficient. The use of scrum activities allowed the team to remain on-track with necessary tasks. The activities used include product backlog, the sprints, sprint planning, sprint execution and daily scrums. Two post-sprint activities were also utilised, commonly known as artefacts, including the sprint review and the spring retrospctive.
+
+The product backlog activity was utilised by the team to ensure all existing features, features needing repair/fixing, improvements to be made and to ensure that these items can be deleted, added and/or changed as required. Using product backlog as a key activity allowed the team to stay on top of items and features that may have issues present or improvements that are required to be made.
+
+Sprints were another key activity that was vital in creating a successful end product, and ensuring that the team stayed on track within the time frame allotted. The sprints were conducted on a monthly basis and in each sprint went for 30 days. Within each sprint, the team aimed to have tangible work to show the progress of the development of the in-house call management centre (CMC). 
+
+Sprint planning was also vital activities in the use of the agile methodology scrum. The main use of sprint planning was to ensure all team members were in agreement about the goals that were to be achieved within the upcoming sprint. The team was then able to distinguish which items were more important than others, and what order to complete items in the product backlog.
+
+Sprint execution
+
+Daily scrum
+
+Sprint review
+
+Sprint retrospective
 
 
 
