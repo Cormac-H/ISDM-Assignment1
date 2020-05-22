@@ -229,16 +229,17 @@ Installing a multilayered information system will fundamentally transform the en
 
 The implementation of the system will allow the Call Management Centre to attain a competitive Advantage through:
 
-•Automated call flows of both inward outwards allow for a more efficient time and cost reduction method
+• Automated call flows of both inward outwards allow for a more efficient time and cost reduction method
 
-•Improved matchmaking system for customers allow a more precise and time efficient process eliminating potential confusion and increasing the chances of a sale
+• Improved matchmaking system for customers allow a more precise and time efficient process eliminating potential confusion and increasing the chances of a sale
 
-•Enhanced efficiency will occur through the system’s unique ability to target and identify potential buyers through a database      
-•Less reliance on human error through greater levels of automation will reduce costs exemplified through the inward call system whereby it reduces the call handling time
+• Enhanced efficiency will occur through the system’s unique ability to target and identify potential buyers through a database      
 
-•Improved customer experience through busy call times where they’ll be directed to a virtual response team which can assist them in any questions, they may potentially have
+• Less reliance on human error through greater levels of automation will reduce costs exemplified through the inward call system whereby it reduces the call handling time
 
-•Increased revenue through the system’s ability to personalise the sale towards the customer
+• Improved customer experience through busy call times where they’ll be directed to a virtual response team which can assist them in any questions, they may potentially have
+
+• Increased revenue through the system’s ability to personalise the sale towards the customer
 
 - Adverse effects for business if our system fails
 
