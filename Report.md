@@ -224,7 +224,20 @@ In order to design the system certain assumptions have been made about the exist
 ###  <div align='center'> Competitive Advantages </div>
 -------------------------------------------------------------------------------
 - Potential benefits of our new system
+
+Installing a multilayered information system will fundamentally transform the entire operations of the call centre, with increased levels of automation this will lead to business processes becoming more efficient and effective with less human error and a significant cost reduction. Furthermore, the newly formed information system will provide the call centre with a point of difference allowing them to gain a major step on their competitors. 
+
+The implementation of the system will allow the Call Management Centre to attain a competitive Advantage through:
+•	Automated call flows of both inward outwards allow for a more efficient time and cost reduction method
+•	Improved matchmaking system for customers allow a more precise and time efficient process eliminating potential confusion and increasing the chances of a sale
+•	Enhanced efficiency will occur through the system’s unique ability to target and identify potential buyers through a database      
+•	Less reliance on human error through greater levels of automation will reduce costs exemplified through the inward call system whereby it reduces the call handling time
+•	Improved customer experience through busy call times where they’ll be directed to a virtual response team which can assist them in any questions, they may potentially have
+•	Increased revenue through the system’s ability to personalise the sale towards the customer
+
 - Adverse effects for business if our system fails
+
+The main risk if the system project fails is the amount of capital that would be lost due to implementing and maintaining the system on a daily basis. The risk of a failure of system would put the business into a dire financial situation. The initial investment of installing the system would be a sunk cost. Additionally, the multitude of resources and money used to educate the staff on how to operate the complex system as well as the intricacies of the technology that comes with it would be a lost investment as well. Furthermore, if the system fails the business will suffer as a whole from a brand and reputation perspective where current and future customers may be against the idea of using this particular travel company as they’ll be put off by the current negative situation the firm is in.
 
 ### <div align='center'>Project Methodology </div>
 -------------------------------------------------------------------------------
