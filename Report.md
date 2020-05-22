@@ -241,7 +241,7 @@ The implementation of the system will allow the Call Management Centre to attain
 
 + Increased revenue through the system’s ability to personalise the sale towards the customer
 
-+ Opportunity for the business to grow and expand due to the increased revenues cut in costs 
++ Opportunity for the business to grow and expand due to the increased revenues and cut in costs 
 
 
 Adverse effects for business if our system fails:
