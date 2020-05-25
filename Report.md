@@ -215,6 +215,21 @@ In order to design the system certain assumptions have been made about the exist
 ### <div align='center'> Workproducts </div>
 -------------------------------------------------------------------------------
 - Descriptions and diagrams
+
+Product owner user stories:
+
+    + As a product owner, I want an information system that will improve the operations of our in-house call management centre so that customers are better satisfied.
+    
+    + As a product owner, I want the information system to aid RMs to serve customers so that more sales are made.
+    
+    + As a product owner, I want the information system to match each RM to customers that are looking for specific packages that the RM specialises in so that the customer is provided the best service possible.
+    
+    + As a product owner, I want the information system to correctly adjust for each customer according to the RMs specialised skills and expertise so that custoemrs are served efficiently and effectively.
+    
+    + As a product owner, I want the information system to effectively develop a customer target list for each RM so that they can make outbound calls to relevant customers.
+    
+    + As a product owner, I want the information system to direct customers to an interactive voice response during busy times so that they can then subsequently be directed to the first available relevant RM.
+
 - Use to mark off issues
     + Use Case Diagrams
     + Activity Diagrams
