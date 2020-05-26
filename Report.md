@@ -224,6 +224,12 @@ Product owner user stories:
 * As a product owner, I want the information system to effectively develop a customer target list for each RM so that they can make outbound calls to relevant customers.
 * As a product owner, I want the information system to direct customers to an interactive voice response during busy times so that they can then subsequently be directed to the first available relevant RM.
 
+Relationship Managers user stories:
+* As a relationship manager, I want the information system to assist in the efficiency and effectivness of my calls with potential customers
+* As a relationship manager, I want the information system to match myself to customers with a similar demographic and skillset
+* As a relationship manager, I want increased automation when attempting to make a sale with reduced levels of human error
+* As a relationship manager, I want assistance when speaking to potential cusomters through data from the information system
+* As a relationship manager, I want the customer to be guided through a waiting process when the calls are busy
 - Use to mark off issues
     + Use Case Diagrams
     + Activity Diagrams
