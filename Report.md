@@ -230,6 +230,13 @@ Relationship Managers user stories:
 * As a relationship manager, I want increased automation when attempting to make a sale with reduced levels of human error
 * As a relationship manager, I want assistance when speaking to potential customers through data from the information system
 * As a relationship manager, I want the customer to be guided through a waiting process when the calls are busy
+
+Customer user stores
+* As a customer, I want to receive quality service with each call made to the major travel comapny.
+* As a customer, I want to be matched with a suitable staff member from the travel company who is an expert in the field I'm interested in so that I can get the best outcome.
+* As a customer, I want to be called by the travel company only when appropriate and by a suitable staff member so that it is beneficial.
+* As a customer, I want to be put on hold only when necessary so that time is not wasted and my requirements are met as soon as possible.
+
 - Use to mark off issues
     + Use Case Diagrams
     + Activity Diagrams
