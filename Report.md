@@ -214,8 +214,8 @@ In order to design the system certain assumptions have been made about the exist
 
 ### <div align='center'> Workproducts </div>
 -------------------------------------------------------------------------------
-- Descriptions and diagrams
 
+#### User Stories
 Product owner user stories:
 * As a product owner, I want an information system that will improve the operations of our in-house call management centre so that customers are better satisfied.
 * As a product owner, I want the information system to aid RMs to serve customers so that more sales are made.
