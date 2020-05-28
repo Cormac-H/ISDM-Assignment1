@@ -239,7 +239,7 @@ Customer:
 - As a customer, I want to be made aware of how my personal or sensitive information will be used by calling system, so that I can feel comfortable disclosing this to the agency. 
 
 #### User Story Map
-
+User story map is simply a visual representation of the above user stories. Colors indicate the priority given to each task. Placement (left or right) indicates the likely difficulty to implement each user story as a feature.
 <img style="float: center;">
 
 ![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/User%20Story%20Map.jpeg?raw=true "Customer Empathy Map")
