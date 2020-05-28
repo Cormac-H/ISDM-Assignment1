@@ -89,7 +89,7 @@ Our team wishes to focus specifically on the 'Customer', 'Relationship Manager' 
 #### System Design & Brainstorming Stakeholder Needs
 The system design has been designed to give the travel agency a competitive edge, encouraging repeat customers, business growth, and satisfied employees who can be rewarded and recognized for their high performance.
 
-The system operates around an idea of 'skill matching' where a customer is met by an employee we believe can best fulfill their needs. Skills will be gathered for both customers and managers alike. The existing 'Profiler Tool' will be used to gather data for a customer based on their postcode and surname for customers. For RMs, a 10 minute questionnaire will be made mandatory upon hiring. This will assess the age, sex, language proficiencies, prior experience, product knowledge, any relevant socio-cultural information that could be used to match with customers. When a customer makes an inbound call, this information will be used to get them an available RM who most similarly matches their background. RMs can further add to existing customer profiles, taking note of their preferences using keywords that match holiday package types. An RM can also provide a rating of how comfortable the customer was to deal with. Future RMs can view this information when dealing with the customer. 
+The system operates around an idea of 'skill matching' where a customer is met by an employee we believe can best fulfill their needs. Skills will be gathered for both customers and managers alike. The existing 'Profiler Tool' will be used to gather data for a customer based on their postcode and surname. For RMs, a 10 minute questionnaire will be made mandatory upon hiring. This will assess the age, sex, language proficiencies, prior experience, product knowledge, any relevant socio-cultural information that could be used to match with customers. When a customer makes an inbound call, this information will be used to get them an available RM who most similarly matches their background. RMs can further add to existing customer profiles, taking note of their preferences using keywords that match holiday package types. An RM can also provide a rating of how comfortable the customer was to deal with. Future RMs can view this information when dealing with the customer. 
 
 All information elicited from both RMs and customers will be required to be stored in a secure database, with personal information not displayed to anyone and only used in calculations. Any user of the system will not be forced to provide information that is not directly necessary for a sale (e.g. name, payment info is needed to book a holiday). If a user opts out of providing information, these fields will be ignored and a heavier weighting will be given to performance metrics taken such as call durations.
 
@@ -216,20 +216,35 @@ In order to design the system certain assumptions have been made about the exist
 -------------------------------------------------------------------------------
 
 #### User Stories
-Product owner user stories:
-* As a product owner, I want an information system that will improve the operations of our in-house call management centre so that customers are better satisfied.
-* As a product owner, I want the information system to aid RMs to serve customers so that more sales are made.
+Product owner:
+* As a product owner, I want an information system that will improve the call put through rate, so that are service can satisfy more customers with a lower cost.
+* As a product owner, I want the information system to aid RMs through scripted sales techniques, so that junior RMs can feel more confident selling.
 * As a product owner, I want the information system to match each RM to customers that are looking for specific packages that the RM specialises in so that the customer is provided the best service possible.
 * As a product owner, I want the information system to correctly adjust for each customer according to the RMs specialised skills and expertise so that custoemrs are served efficiently and effectively.
 * As a product owner, I want the information system to effectively develop a customer target list for each RM so that they can make outbound calls to relevant customers.
 * As a product owner, I want the information system to direct customers to an interactive voice response during busy times so that they can then subsequently be directed to the first available relevant RM.
 
-Relationship Managers user stories:
-* As a relationship manager, I want the information system to assist in the efficiency and effectivness of my calls with potential customers
-* As a relationship manager, I want the information system to match myself to customers with a similar demographic and skillset
-* As a relationship manager, I want increased automation when attempting to make a sale with reduced levels of human error
-* As a relationship manager, I want assistance when speaking to potential customers through data from the information system
-* As a relationship manager, I want the customer to be guided through a waiting process when the calls are busy
+Relationship Managers:
+* As a relationship manager, I want my call performance with previous customers evaluated by their efficiency and effectiveness, so that i can improve my ability as a sales-person.
+* As a relationship manager, I want the information system to match myself to customers with a similar demographic and skillset, so that I can best demonstrate and apply my existing knowledge when pitching holidays.
+* As a relationship manager, I want greater automation in assessing which customers I should be calling and who should contact me, so that customer's I receieve share an interest in packages i am knowledgable about.
+* As a relationship manager, I want assistance from the call system when speaking to potential customers, so that I can feel comfortable talking to difficult customers and navigating difficult business negotiations.
+* As a relationship manager, I want the customer to be guided through a waiting process when the lines are busy, so that the customers we serve are not frustrated by the agency process before doing business with us.
+
+Customer:
+- As a customer, I want my loyalty to the travel agency to be recognized, so that i have incentive to continue returning to the service.
+- As a customer, I want the specifics of my holiday plans understood and incorporated into existing holiday packages, so that I have a reason to use the travel agency as opposed to booking my own holiday.
+- As a customer, I want to feel that I have received value for money when purchasing holiday deals, so that i am confident the package i receieve was best for my interests and needs.
+- As a customer, I want to be able to speak with an RM of a similar socio-cultural demographic, so that I can feel more comfortable and confident discussing important business decisions.
+- As a customer, I want to be made aware of how my personal or sensitive information will be used by calling system, so that I can feel comfortable disclosing this to the agency. 
+
+#### User Story Map
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/User%20Story%20Map.jpeg?raw=true "Customer Empathy Map")
+</img>
+
 - Use to mark off issues
     + Use Case Diagrams
     + Activity Diagrams
