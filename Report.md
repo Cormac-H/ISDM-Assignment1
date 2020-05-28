@@ -224,6 +224,26 @@ Product owner:
 * As a product owner, I want the information system to effectively develop a customer target list for each RM so that they can make outbound calls to relevant customers.
 * As a product owner, I want the information system to direct customers to an interactive voice response during busy times so that they can then subsequently be directed to the first available relevant RM.
 
+Relationship Managers:
+* As a relationship manager, I want my call performance with previous customers evaluated by their efficiency and effectiveness, so that i can improve my ability as a sales-person.
+* As a relationship manager, I want the information system to match myself to customers with a similar demographic and skillset, so that I can best demonstrate and apply my existing knowledge when pitching holidays.
+* As a relationship manager, I want greater automation in assessing which customers I should be calling and who should contact me, so that customer's I receieve share an interest in packages i am knowledgable about.
+* As a relationship manager, I want assistance from the call system when speaking to potential customers, so that I can feel comfortable talking to difficult customers and navigating difficult business negotiations.
+* As a relationship manager, I want the customer to be guided through a waiting process when the lines are busy, so that the customers we serve are not frustrated by the agency process before doing business with us.
+
+Customer:
+- As a customer, I want my loyalty to the travel agency to be recognized, so that i have incentive to continue returning to the service.
+- As a customer, I want the specifics of my holiday plans understood and incorporated into existing holiday packages, so that I have a reason to use the travel agency as opposed to booking my own holiday.
+- As a customer, I want to feel that I have received value for money when purchasing holiday deals, so that i am confident the package i receieve was best for my interests and needs.
+- As a customer, I want to be able to speak with an RM of a similar socio-cultural demographic, so that I can feel more comfortable and confident discussing important business decisions.
+- As a customer, I want to be made aware of how my personal or sensitive information will be used by calling system, so that I can feel comfortable disclosing this to the agency. 
+
+#### User Story Map
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/User%20Story%20Map.jpeg?raw=true "Customer Empathy Map")
+</img>
 
 - Use to mark off issues
     + Use Case Diagrams
