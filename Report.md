@@ -245,6 +245,17 @@ User story map is simply a visual representation of the above user stories. Colo
 ![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/User%20Story%20Map.jpeg?raw=true "Customer Empathy Map")
 </img>
 
+#### <div align='center'> Use Case Diagrams </div>
+
+##### RM: Making an outgoing call
+This use case covers a Relationship Manager performing an outgoing call. This use case assumes the RM has not yet received their target list and one is generated for them.
+
+##### Customer: Making an inbound call
+This use case covers a customer making an inbound call to the travel agency. This additionally covers a case where the customer is completely new to the system, and checks for wait times.
+
+##### RM: Hiring a new RM
+This use case addresses the data collection processes that occur when a new RM is hired, and logs their information with the system. The use case does not include any work or performance conducted by the RM, only introducing them to the system.
+
 - Use to mark off issues
     + Use Case Diagrams
     + Activity Diagrams
