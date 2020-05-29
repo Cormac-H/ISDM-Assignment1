@@ -260,11 +260,16 @@ This use case covers a customer making an inbound call to the travel agency. Thi
 
 <img style="float: center;">
 
-![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Inbound%20Use%20Case.png?raw=true "Inbound Use Case")
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Inbound%20Call%20Use%20Case.png?raw=true "Inbound Use Case")
 </img>
 
 ##### RM: Hiring a new RM
 This use case addresses the data collection processes that occur when a new RM is hired, and logs their information with the system. The use case does not include any work or performance conducted by the RM, only introducing them to the system.
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/RM%20Hired%20Use%20Case.png?raw=true "RM Hired Use Case")
+</img>
 
 - Use to mark off issues
     + Use Case Diagrams
