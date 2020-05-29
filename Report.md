@@ -87,7 +87,7 @@ Our team wishes to focus specifically on the 'Customer', 'Relationship Manager' 
 ### <div align='center'> Project Approach </div>
 -------------------------------------------------------------------------------
 #### System Design & Brainstorming Stakeholder Needs
-The system design has been designed to give the travel agency a competitive edge, encouraging repeat customers, business growth, and satisfied employees who can be rewarded and recognized for their high performance.
+The system design has been designed to give the travel agency a competitive edge by facilitating repeat customers, business growth, and satisfied employees who can be rewarded and recognized for their high performance.
 
 The system operates around an idea of 'skill matching' where a customer is met by an employee we believe can best fulfill their needs. Skills will be gathered for both customers and managers alike. The existing 'Profiler Tool' will be used to gather data for a customer based on their postcode and surname. For RMs, a 10 minute questionnaire will be made mandatory upon hiring. This will assess the age, sex, language proficiencies, prior experience, product knowledge, any relevant socio-cultural information that could be used to match with customers. When a customer makes an inbound call, this information will be used to get them an available RM who most similarly matches their background. RMs can further add to existing customer profiles, taking note of their preferences using keywords that match holiday package types. An RM can also provide a rating of how comfortable the customer was to deal with. Future RMs can view this information when dealing with the customer. 
 
@@ -272,7 +272,6 @@ This use case addresses the data collection processes that occur when a new RM i
 </img>
 
 - Use to mark off issues
-    + Use Case Diagrams
     + Activity Diagrams
     + Class Diagrams
     + Collaborative diagrams
