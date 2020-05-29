@@ -242,7 +242,7 @@ Customer:
 User story map is simply a visual representation of the above user stories. Colors indicate the priority given to each task. Placement (left or right) indicates the likely difficulty to implement each user story as a feature.
 <img style="float: center;">
 
-![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/User%20Story%20Map.jpeg?raw=true "Customer Empathy Map")
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/User%20Story%20Map.jpeg?raw=true "User Story Map")
 </img>
 
 #### <div align='center'> Use Case Diagrams </div>
@@ -252,7 +252,7 @@ This use case covers a Relationship Manager performing an outgoing call. This us
 
 <img style="float: center;">
 
-![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Use%20Case.jpeg?raw=true "Customer Empathy Map")
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Use%20Case.PNG?raw=true "Outgoing Use Case")
 </img>
 
 
