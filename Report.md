@@ -140,7 +140,7 @@ In order to design the system certain assumptions have been made about the exist
     + The purpose of skill matching is to present a customer with an RM that most aptly reflects their needs
     + This purpose of quality customer service is defeated if it is cumbersome for a user to enter a lot of profile information
 7. A substantial amount of RMs already exist within the company
-    + Similar reason to 6
+    + Similar reason to assumption 6
     + A main objective of the system is to increase customer satisfaction
     + Customers who make inbound calls from the new system will be disatisfied with long wait times for an RM, and the purpose of the system will be undermined
 8. Customers are comfortable providing personal information
@@ -249,6 +249,12 @@ User story map is simply a visual representation of the above user stories. Colo
 
 ##### RM: Making an outgoing call
 This use case covers a Relationship Manager performing an outgoing call. This use case assumes the RM has not yet received their target list and one is generated for them.
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Use%20Case.jpeg?raw=true "Customer Empathy Map")
+</img>
+
 
 ##### Customer: Making an inbound call
 This use case covers a customer making an inbound call to the travel agency. This additionally covers a case where the customer is completely new to the system, and checks for wait times.
