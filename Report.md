@@ -252,11 +252,16 @@ This use case covers a Relationship Manager performing an outgoing call. This us
 
 <img style="float: center;">
 
-![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Use%20Case.png?raw=true "Outgoing Use Case")
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Use%20Case.png?raw=true "Outbound Use Case")
 </img>
 
 ##### Customer: Making an inbound call
 This use case covers a customer making an inbound call to the travel agency. This additionally covers a case where the customer is completely new to the system, and checks for wait times.
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Inbound%20Use%20Case.png?raw=true "Inbound Use Case")
+</img>
 
 ##### RM: Hiring a new RM
 This use case addresses the data collection processes that occur when a new RM is hired, and logs their information with the system. The use case does not include any work or performance conducted by the RM, only introducing them to the system.
