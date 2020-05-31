@@ -271,9 +271,20 @@ This use case addresses the data collection processes that occur when a new RM i
 ![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/RM%20Hired%20Use%20Case.png?raw=true "RM Hired Use Case")
 </img>
 
+#### <div align='center'> Activity Diagrams </div>
+
+#### <div align='center'> Class Diagram </div>
+
+Below is a class diagram modelling all major system entities. Data will be stored for any customer or RM interacting with the system. Information about calls will be stored to assess RM performance. Information about skills and holidays will be used to assign skills and knowledge to RM profles, and previously booked holidays to Customers.
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/System%20Class%20Diagram.png?raw=true "System Class Diagram")
+</img>
+
+#### <div align='center'> Collaboration Diagrams </div>
 - Use to mark off issues
     + Activity Diagrams
-    + Class Diagrams
     + Collaborative diagrams
 
 ###  <div align='center'> Competitive Advantages </div>
