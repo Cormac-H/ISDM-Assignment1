@@ -273,6 +273,14 @@ This use case addresses the data collection processes that occur when a new RM i
 
 #### <div align='center'> Activity Diagrams </div>
 
+##### RM: Making an outbound call
+In this activity diagram, the scenario of an RM performing an outbound call is shown. It is assumed that the RM has not yet receieved their weekly list of potential customers. It is also assumed that the customers the RM is calling have already had their user profiles generated. The scenario ends with the call being received and does not include receiving feedback or evaluating the call.
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Call%20Activity%20Diagram.png?raw=true "Inbound Call Activity Diagram")
+</img>
+
 ##### Customer: Making an inbound call
 The following activity diagram visualizes the scenario of a customer performing an inbound call the system. An optional case of a customer being new to the system is included. Note: To find an RM to talk to the customer the system calculates the interests and scores of the customer, interests and scores of the RM, then finds a set of RMs that are of reasonable match to the customer and ranks them by their estimated wait times. A customer will be connected to the first RM in this shortlist of suitable candidates.
 
@@ -292,7 +300,6 @@ Below is a class diagram modelling all major system entities. Data will be store
 
 #### <div align='center'> Collaboration Diagrams </div>
 - Use to mark off issues
-    + Activity Diagrams
     + Collaborative diagrams
 
 ###  <div align='center'> Competitive Advantages </div>
