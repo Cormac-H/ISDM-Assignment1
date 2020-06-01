@@ -247,7 +247,7 @@ User story map is simply a visual representation of the above user stories. Colo
 
 #### <div align='center'> Use Case Diagrams </div>
 
-##### RM: Making an outgoing call
+##### RM: Making an outbound call
 This use case covers a Relationship Manager performing an outgoing call. This use case assumes the RM has not yet received their target list and one is generated for them.
 
 <img style="float: center;">
@@ -307,8 +307,28 @@ Below is a class diagram modelling all major system entities. Data will be store
 </img>
 
 #### <div align='center'> Collaboration Diagrams </div>
-- Use to mark off issues
-    + Collaborative diagrams
+
+##### RM: Making an outbound call
+
+<!-- <img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Call%20Collaboration%20Diagram.png?raw=true "Outbound Call Collaboration Diagram")
+</img> -->
+
+##### Customer: Making an inbound call
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Inbound%20Call%20Collaboration%20Diagram.png?raw=true "Inbound Call Collaboration Diagram")
+</img>
+
+##### Product Owner: Hiring a new RM
+
+<!-- <img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/RM%20Hired%20Collaboration%20Diagram.png?raw=true "RM Hired Collaboration Diagram")
+</img> -->
+
 
 ###  <div align='center'> Competitive Advantages </div>
 -------------------------------------------------------------------------------
