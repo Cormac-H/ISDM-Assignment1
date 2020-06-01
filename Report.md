@@ -263,7 +263,7 @@ This use case covers a customer making an inbound call to the travel agency. Thi
 ![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Inbound%20Call%20Use%20Case.png?raw=true "Inbound Use Case")
 </img>
 
-##### RM: Hiring a new RM
+##### Product Owner: Hiring a new RM
 This use case addresses the data collection processes that occur when a new RM is hired, and logs their information with the system. The use case does not include any work or performance conducted by the RM, only introducing them to the system.
 
 <img style="float: center;">
@@ -278,7 +278,7 @@ In this activity diagram, the scenario of an RM performing an outbound call is s
 
 <img style="float: center;">
 
-![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Call%20Activity%20Diagram.png?raw=true "Inbound Call Activity Diagram")
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Call%20Activity%20Diagram.png?raw=true "Outbound Call Activity Diagram")
 </img>
 
 ##### Customer: Making an inbound call
@@ -287,6 +287,14 @@ The following activity diagram visualizes the scenario of a customer performing 
 <img style="float: center;">
 
 ![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Inbound%20Call%20Activity%20Diagram.png?raw=true "Inbound Call Activity Diagram")
+</img>
+
+##### Product Owner: New RM Hired
+In this activity diagram, the scenario of a product owner hiring a new RM is shown. This includes the RM filling out an evaluative survey, and suggesting learning goals for them to incentivise learning about more packages. Note: The Product Owner will be able to view performance metrics (how skilled the employee is on paper), while the RM will be able to see a short summary of their details, current abilities, and goals with no metrics.
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/RM%20Hired%20Activity%20Diagram.png?raw=true "RM Hired Activity Diagram")
 </img>
 
 #### <div align='center'> Class Diagram </div>
