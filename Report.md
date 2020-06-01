@@ -273,6 +273,14 @@ This use case addresses the data collection processes that occur when a new RM i
 
 #### <div align='center'> Activity Diagrams </div>
 
+##### Customer: Making an inbound call
+The following activity diagram visualizes the scenario of a customer performing an inbound call the system. An optional case of a customer being new to the system is included. Note: To find an RM to talk to the customer the system calculates the interests and scores of the customer, interests and scores of the RM, then finds a set of RMs that are of reasonable match to the customer and ranks them by their estimated wait times. A customer will be connected to the first RM in this shortlist of suitable candidates.
+
+<img style="float: center;">
+
+![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Inbound%20Call%20Activity%20Diagram.png?raw=true "Inbound Call Activity Diagram")
+</img>
+
 #### <div align='center'> Class Diagram </div>
 
 Below is a class diagram modelling all major system entities. Data will be stored for any customer or RM interacting with the system. Information about calls will be stored to assess RM performance. Information about skills and holidays will be used to assign skills and knowledge to RM profles, and previously booked holidays to Customers.
