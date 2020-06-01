@@ -310,10 +310,10 @@ Below is a class diagram modelling all major system entities. Data will be store
 
 ##### RM: Making an outbound call
 
-<!-- <img style="float: center;">
+<img style="float: center;">
 
 ![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/Outbound%20Call%20Collaboration%20Diagram.png?raw=true "Outbound Call Collaboration Diagram")
-</img> -->
+</img>
 
 ##### Customer: Making an inbound call
 
