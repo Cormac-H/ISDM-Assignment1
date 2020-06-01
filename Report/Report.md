@@ -324,10 +324,10 @@ Below is a class diagram modelling all major system entities. Data will be store
 
 ##### Product Owner: Hiring a new RM
 
-<!-- <img style="float: center;">
+<img style="float: center;">
 
 ![](https://github.com/Cormac-H/ISDM-Assignment1/blob/master/RM%20Hired%20Collaboration%20Diagram.png?raw=true "RM Hired Collaboration Diagram")
-</img> -->
+</img>
 
 
 ###  <div align='center'> Competitive Advantages </div>
