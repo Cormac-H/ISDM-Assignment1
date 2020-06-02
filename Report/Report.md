@@ -308,6 +308,8 @@ Below is a class diagram modelling all major system entities. Data will be store
 
 #### <div align='center'> Collaboration Diagrams </div>
 
+The following collaboration diagrams have been used to display the interactions between objects in the previous use cases. The collaboration diagrams show the different roles of objects in each use case and how they form a flow of events. These collaboration diagrams also help to define the role of each stipulated object in the use cases. Collaboration diagrams shown include an RM making an outbound call to a potential customer, a customer making an inbound call to the travel company, and the firm hiring a new RM.
+
 ##### RM: Making an outbound call
 
 <img style="float: center;">
